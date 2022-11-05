@@ -1,0 +1,19 @@
+footer
+{
+    color: white;
+    height: 60px;
+    width: 100%;
+    border-top:solid 1px #CCCCCC;
+    position: absolute;
+    bottom: 0;
+}
+span{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    margin: 0;
+    position:relative;
+    top:37%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}

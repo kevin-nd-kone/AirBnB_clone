@@ -1,0 +1,14 @@
+footer{
+    position:absolute; 
+    bottom:0;
+    background-color: #00FF00;
+    height: 60px;
+    width: 100%;
+}
+span{
+    margin: 0;
+    position:relative;
+    top:37%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
