@@ -1,0 +1,157 @@
+.container .filter{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    height: 70px;
+    width: 100%;
+    border: solid 1px #DDDDDD;
+    border-radius: 4px;
+}
+
+button{
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    width: 20%;
+    height: 48px;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    right: 200px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 90%;
+}
+
+.location,.ameneties{
+    height: 100%;
+    width: 25%;
+    text-align: center;
+}
+.location{
+    border-right: solid 1px #DDDDDD;
+    text-align: center;
+}
+.location h3, .ameneties h3{
+    margin-bottom: 0;
+    color:gray;
+    font-weight: 600;
+}
+.location h4, .ameneties h4{
+    margin-top: 0;
+    color:gray;
+    font-weight: 400;
+    font-size: 14;
+}
+
+.popover{
+    display: none;
+}
+
+h4{
+    color: rgb(86, 86, 86);
+    margin: 7px;
+}
+
+.location:hover .popover{
+    text-align: center;
+    background-color: #fafafa;
+    margin-top: 11px;
+    display:list-item;
+    border: solid 1px #DDDDDD;
+}
+
+.ameneties:hover .popover{
+    text-align: center;
+    background-color: #fafafa;
+    margin-top: 11px;
+    display:list-item;
+    border: solid 1px #DDDDDD;
+    text-align: justify;
+}
+.places h1{
+    font-size: 30px;
+}
+.articles{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.articles article{
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: solid 1px #FF5A5F;
+    border-radius: 4px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.price-place{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.item{
+    margin: 15px;
+}
+article h2{
+    font-size: 30px;
+    text-align: center;
+}
+.price_by_night{
+    color: #FF5A5F;
+    border:solid 4px #FF5A5F;
+    border-radius: 60%;
+    min-width: 80px;
+    height: 80px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information{
+    height: 80px;
+    border-top: solid 1px #DDDDDD;
+    border-bottom: solid 1px #DDDDDD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.max_guest,.number_rooms,.number_bathrooms{
+    width: 100px;
+}
+.icon-guest,.icon-room,.icon-bathroom{
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+.icon-guest{
+    background-image: url('../images/icon_group.png');
+}
+.icon-room{
+    background-image: url('../images/icon_bed.png');
+}
+.icon-bathroom{
+    background-image: url('../images/icon_bath.png');
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.title{
+    font-weight: bold;
+    margin-right: 5px;
+}
