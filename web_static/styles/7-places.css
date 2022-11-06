@@ -72,7 +72,29 @@ h4{
     border: solid 1px #DDDDDD;
     text-align: justify;
 }
-/* h4:hover{
-    background-color: rgb(51, 188, 92);
-    cursor: pointer;
-} */
+.places h1{
+    font-size: 30px;
+}
+.articles{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.articles article{
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: solid 1px #FF5A5F;
+    border-radius: 4px;
+}
+.articles article:hover{
+    background-color: #FF5A5F;
+    opacity: 80%;
+    color: white;
+}
+article h2{
+    font-size: 30px;
+    text-align: center;
+}
